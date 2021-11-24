@@ -8,7 +8,7 @@ public class HelloLambda implements RequestHandler<Object, Object>  {
 	@Override
 	public Object handleRequest(Object input, Context context) {
 		System.out.print("Hello from lambda");
-		return null;
+		return "Hello from lambda";
 	}
 
 }
