@@ -7,7 +7,8 @@ AWS Account
 ### Steps
 1. Create a Bucket and add folder snapshots and release
 2. Create IAM Policy
-```{
+```
+{
   "Version": "2012-10-17",
   "Statement": [
     {
@@ -55,7 +56,7 @@ AWS Account
     ...
     ```
     {Note: Make sure repository id is similiar to server id.}
-    
+
     ```
     <build>
             ...
