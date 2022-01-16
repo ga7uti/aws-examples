@@ -54,6 +54,8 @@ AWS Account
 	</distributionManagement>
     ...
     ```
+    {Note: Make sure repository id is similiar to server id.}
+    
     ```
     <build>
             ...
@@ -68,6 +70,5 @@ AWS Account
 	</build>
 
 	```
-    {Note: Make sure repository id is similiar to server id.}
 5. Deploying the app
 ```mvn --settings settings.xml clean deploy -Diam-user-access-key-id=XXXX -Diam-user-secret-key=XXXX```
