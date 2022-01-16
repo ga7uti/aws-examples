@@ -24,7 +24,8 @@ AWS Account
 ```
 3. Create IAM User with programmatic access and attach the previous policy.
 4. Configure maven & application to be deployed on AWS.
-    a. Create settings.xml for the project
+    
+    - Create settings.xml for the project
         ```
         <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 https://maven.apache.org/xsd/settings-1.0.0.xsd">
@@ -38,7 +39,7 @@ AWS Account
         </settings>
         ```
 
-    b. Configure pom.xml 
+    - Configure pom.xml 
     ```
     ...
     <distributionManagement>
